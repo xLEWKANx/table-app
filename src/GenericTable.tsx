@@ -1,8 +1,8 @@
 import { TableColumn } from './Table/TableColumn';
 
 const ExampleTable: React.ComponentType<{ 
-  rows: any[];
-  data: any[];
+  rows: unknown[];
+  data: unknown[];
   columns: TableColumn<any>[]
 }> = ({ rows, columns, data }) => {
 

@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { Item } from '../data';
 import { TableColumn } from './TableColumn';
 import useDecoratedColumns from './useDecoratedColumns';
 
-const useTable = (data: Item[], columns: TableColumn<Item>[]) => {
+const useTable = <D>(data: D[], columns: TableColumn<D>[]) => {
 
   const [dataState, setState] = useState(data);
 

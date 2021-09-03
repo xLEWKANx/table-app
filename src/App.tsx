@@ -3,7 +3,7 @@ import useTable from './Table/useTable';
 import { ActionTableColumn, CountColumn, NameTableColumn } from './ExampleTable/ExampleTableColumns';
 import GenericTable from './GenericTable';
 
-const count = new CountColumn('');
+const count = new CountColumn('count');
 const nameColumn = new NameTableColumn('name');
 const actionColumn = new ActionTableColumn('action');
 const anotherActionColumn = new ActionTableColumn('another action');
